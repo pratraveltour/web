@@ -1,3 +1,24 @@
+.tb_r6mq9 {
+    background-image: url('../images/bg-site-bromojavatours.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.tb_r6mq9 .builder_row_cover {
+    background-image: url('../images/bg-site-bromojavatours.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+.tb_dcej693 .builder_row_cover,
+.tb_5hrh802 .builder_row_cover {
+    background-image: url('../images/bg-site-bromojavatours.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
 #glt-settings.wrap {
   max-width:1300px;
 }
