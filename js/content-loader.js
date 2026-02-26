@@ -124,16 +124,30 @@
     var contactItems = document.querySelectorAll('.tb_nzer380 .module-icon-item');
     if (contactItems[0]) { var s = contactItems[0].querySelector('span'); if (s) s.textContent = data.footer.admin1; }
     if (contactItems[1]) { var s = contactItems[1].querySelector('span'); if (s) s.textContent = data.footer.admin2; }
-    // item[2] is a Cloudflare-obfuscated email — leave it alone
-    // address is at index 3 on index.html (which has email at [2]), index 2 on others
-    var addrIdx = contactItems.length >= 4 ? 3 : 2;
-    if (contactItems[addrIdx]) {
-      var s = contactItems[addrIdx].querySelector('span');
+    // item[2] is the email link — set href and visible text from content-data.js
+    if (contactItems[2] && data.footer.email) {
+      var emailAnchor = contactItems[2].querySelector('a');
+      if (emailAnchor) {
+        emailAnchor.href = 'mailto:' + data.footer.email;
+        var emailSpan = emailAnchor.querySelector('span');
+        if (emailSpan) emailSpan.textContent = data.footer.email;
+      }
+    }
+    // address is always at index 3
+    if (contactItems[3]) {
+      var s = contactItems[3].querySelector('span');
       if (s) s.textContent = data.footer.address;
     }
 
     // ── Footer: copyright (tb_xsbc432) ──────────────────────────────
     setHTML('.tb_xsbc432 .tb_text_wrap', data.footer.copyright);
+    // ── "Pesan Sekarang" / contact buttons ─────────────────────────
+    if (data.nav && data.nav.contactUrl) {
+      document.querySelectorAll('a[href*="kontak"]').forEach(function (a) {
+        a.href = data.nav.contactUrl;
+      });
+    }
+
     // ── Social links (header tb_lsju223 + footer tb_l9ob998) ────────
     if (data.socialLinks) {
       setSocialLinks('.tb_lsju223', data.socialLinks);

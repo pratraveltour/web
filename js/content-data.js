@@ -9,22 +9,24 @@ var SITE_CONTENT = {
   },
   "topbar": {
     "promo": "Promo Paket Wisata Bromo",
-    "phone1": "0899-9999-9999",
-    "phone2": "08xx-xxxx-xxxx"
+    "phone1": "+62823-0128-7662",
+    "phone2": "+628xx-xxxx-xxxx"
   },
   "nav": {
     "home": "Home",
     "packages": "Paket Wisata",
     "rental": "Rental Mobil",
-    "about": "Tentang Kami"
+    "about": "Tentang Kami",
+    "contactUrl": "https://wa.me/6282301287662"
   },
 
   "footer": {
     "brandName": "Pra travel&tour",
     "description": "<p>PT. Pra travel&tour merupakan perusahaan tour travel yang menawarkan paket wisata Gunung Bromo dengan harga yang cukup terjangkau, fasilitas lengkap, tour guide profesional.</p>",
     "contactTitle": "Hubungi Kami",
-    "admin1": "Admin 1 : \u202a0812-3126-8185",
-    "admin2": "Admin 2 : 0813-3689-2883",
+    "admin1": "Admin 1 : +62823-0128-7662",
+    "admin2": "Admin 2 : +62899-9999-9999",
+    "email": "pratravelandtour@gmail.com",
     "address": "Krajan 1, Sepuhgembol, Kec. Wonomerto, Kabupaten Probolinggo, Jawa Timur 67253",
     "copyright": "\u00a9 2026 Pra travel&tour. All Rights Reserved."
   },
@@ -33,7 +35,7 @@ var SITE_CONTENT = {
     "welcome": "WELCOME TO OUR WEBSITE",
 
     "aboutTitle": "About<span style=\"color: #333;\"> Us</span>",
-    "aboutPara1": "<p>Bromo adalah nama sebuah gunung yang berlokasi di Kabupaten Probolinggo, Jawa Timur. Gunung Bromo adalah bagian dari Taman Nasional Bromo Tengger Semeru yang terkenal di Indonesia.</p>\n<p><strong>ANNATRANS Tour Travel</strong> mengajak Anda untuk berwisata di Gunung Bromo. Ajak teman atau sahabat terdekat Anda untuk menikmati suasana alam yang indah di Jawa Timur. Kami menawarkan paket trip Gunung Bromo dengan harga yang cukup terjangkau.</p>",
+    "aboutPara1": "<p>Bromo adalah nama sebuah gunung yang berlokasi di Krajan 1, Sepuhgembol, Kec. Wonomerto, Kabupaten Probolinggo, Jawa Timur. Gunung Bromo adalah bagian dari Taman Nasional Bromo Tengger Semeru yang terkenal di Indonesia.</p>\n<p><strong>Pra travel&tour</strong> mengajak Anda untuk berwisata di Gunung Bromo. Ajak teman atau sahabat terdekat Anda untuk menikmati suasana alam yang indah di Jawa Timur. Kami menawarkan paket trip Gunung Bromo dengan harga yang cukup terjangkau.</p>",
     "aboutPara2": "<p>Nikmati liburan menyenangkan Anda bersama teman, sahabat, keluarga di Gunung Bromo, ada banyak tempat yang bisa Anda eksplore seperti Kawah Gunung Bromo, Padang Rumput Savana, Pasir Berbisik, Bukit Teletubbies Bromo dan lainnya.</p>",
     "aboutButton": "Selengkapnya [...]",
 
@@ -84,7 +86,7 @@ var SITE_CONTENT = {
     ],
 
     "ctaHeading": "Enjoy your holiday",
-    "ctaDescription": "ANNATRANS Tour Travel telah dipercaya oleh banyak wisatawan yang ingin berwisata ke Gunung Bromo. Dengan tour guide profesional dan berpengalaman, kami akan ajak Anda menikmati suasana alam disekitar Gunung Bromo, Layanan Sewa Jeep Bromo bisa Anda manfaatkan untuk berkeliling di kawasan Pasir Berbisik atau untuk sekedar berfoto ria.",
+    "ctaDescription": "Pra travel&tour telah dipercaya oleh banyak wisatawan yang ingin berwisata ke Gunung Bromo. Dengan tour guide profesional dan berpengalaman, kami akan ajak Anda menikmati suasana alam disekitar Gunung Bromo, Layanan Sewa Jeep Bromo bisa Anda manfaatkan untuk berkeliling di kawasan Pasir Berbisik atau untuk sekedar berfoto ria.",
     "ctaButton": "Kontak Kami"
   },
 
