@@ -269,7 +269,7 @@ input[type=reset]:hover, input[type=submit]:hover, button:hover, button[type=sub
 #pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
 	background-color: #ffffff; 
 }
-body #site-logo a img {		width: 255px; 
+body #site-logo a img {		width: 170px; 
 }
 #site-logo {	
 	margin-top: 7px;
@@ -368,13 +368,13 @@ body #site-logo a img {		width: 255px;
 	color: #ffffff; 
 }
 @media(max-width: 1280px) { /* Themify Customize Styling */
-body #site-logo a img {		width: 255px; 
+body #site-logo a img {		width: 170px; 
 }
  }@media(max-width: 768px) { /* Themify Customize Styling */
-body #site-logo a img {		width: 255px; 
+body #site-logo a img {		width: 170px; 
 }
  }@media(max-width: 680px) { /* Themify Customize Styling */
-body #site-logo a img {		width: 255px; 
+body #site-logo a img {		width: 170px; 
 }
  }.mobile-menu-visible.header-slide-out .sidemenu-on, .mobile-menu-visible.header-overlay #headerwrap, .mobile_menu_active.header-leftpane #headerwrap, .mobile_menu_active.header-rightpane #headerwrap, .header-minbar .sidemenu-on, .mobile_menu_active #headerwrap .sidemenu-on { background: none;
 	background-color: #233b5c;
