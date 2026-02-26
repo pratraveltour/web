@@ -141,6 +141,13 @@
 
     // ── Footer: copyright (tb_xsbc432) ──────────────────────────────
     setHTML('.tb_xsbc432 .tb_text_wrap', data.footer.copyright);
+
+    // ── Admin WhatsApp buttons (packet.html) ─────────────────────────
+    document.querySelectorAll('a.builder_button').forEach(function (a) {
+      var txt = a.textContent.trim();
+      if (data.footer.admin1Url && txt === 'Hub. Admin 1') a.href = data.footer.admin1Url;
+      if (data.footer.admin2Url && txt === 'Hub. Admin 2') a.href = data.footer.admin2Url;
+    });
     // ── "Pesan Sekarang" / contact buttons ─────────────────────────
     if (data.nav && data.nav.contactUrl) {
       document.querySelectorAll('a[href*="kontak"]').forEach(function (a) {

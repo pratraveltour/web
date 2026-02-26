@@ -375,3 +375,66 @@ jQuery(function($) {
   }
 });
 
+/* -------------------------------------------------------------------------
+ * Themify tab module fallback
+ * Handles the Harga / Itenerary / Include / Exclude tab buttons locally
+ * when the remote tab.js (loaded by main.js from the live WordPress server)
+ * is unavailable (i.e. while working offline / in the local static copy).
+ * -------------------------------------------------------------------------*/
+(function ($) {
+  function initTabs() {
+    /* Only run if Themify's own tab JS has NOT already initialised the tabs.
+       We detect this by checking whether the first tab-content that should be
+       visible is still hidden (aria-hidden="false" means it IS visible). */
+    var $tabModules = $('.module-tab');
+    if (!$tabModules.length) return;
+
+    $tabModules.each(function () {
+      var $module = $(this);
+      var $navItems = $module.find('ul.tab-nav > li');
+      var $contents = $module.find('.tab-content');
+
+      /* If tabs already work (first visible content panel has children in DOM
+         and the nav has click handlers), skip – avoid double-binding. */
+      if ($navItems.data('tb-tab-bound')) return;
+
+      $navItems.data('tb-tab-bound', true);
+
+      $navItems.on('click', 'a', function (e) {
+        e.preventDefault();
+
+        var targetId = $(this).attr('href').replace('#', ''); // e.g. "tab-tb_ic2q670-1"
+
+        /* Update nav items */
+        $navItems
+          .removeClass('current')
+          .attr('aria-expanded', 'false');
+        $(this).closest('li')
+          .addClass('current')
+          .attr('aria-expanded', 'true');
+
+        /* Update the mobile "current active" label */
+        $module.find('.tab-nav-current-active .tb_tab_title')
+          .text($(this).find('.tb_tab_title').text());
+
+        /* Show / hide content panels */
+        $contents.each(function () {
+          var isTarget = $(this).data('id') === targetId ||
+                         $(this).attr('data-id') === targetId;
+          $(this).attr('aria-hidden', isTarget ? 'false' : 'true');
+        });
+      });
+    });
+  }
+
+  /* Run after the DOM is ready and again after a short delay so that
+     main.js's lazy-loading logic has had a chance to run first.
+     If main.js successfully loaded the remote tab.js the handler below
+     will find the elements already initialised and exit early. */
+  $(function () {
+    /* Delay slightly so main.js dynamic module loading gets priority */
+    setTimeout(initTabs, 600);
+  });
+
+}(jQuery));
+

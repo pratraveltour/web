@@ -25,7 +25,9 @@ var SITE_CONTENT = {
     "description": "<p>PT. Pra travel&tour merupakan perusahaan tour travel yang menawarkan paket wisata Gunung Bromo dengan harga yang cukup terjangkau, fasilitas lengkap, tour guide profesional.</p>",
     "contactTitle": "Hubungi Kami",
     "admin1": "Admin 1 : +62823-0128-7662",
+    "admin1Url": "https://api.whatsapp.com/send?phone=6282301287662",
     "admin2": "Admin 2 : +62899-9999-9999",
+    "admin2Url": "https://api.whatsapp.com/send?phone=6289999999999",
     "email": "pratravelandtour@gmail.com",
     "address": "Krajan 1, Sepuhgembol, Kec. Wonomerto, Kabupaten Probolinggo, Jawa Timur 67253",
     "copyright": "\u00a9 2026 Pra travel&tour. All Rights Reserved."
