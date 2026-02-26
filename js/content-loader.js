@@ -122,8 +122,14 @@
 
     // ── Footer: contact icon list (tb_nzer380) ───────────────────────
     var contactItems = document.querySelectorAll('.tb_nzer380 .module-icon-item');
-    if (contactItems[0]) { var s = contactItems[0].querySelector('span'); if (s) s.textContent = data.footer.admin1; }
-    if (contactItems[1]) { var s = contactItems[1].querySelector('span'); if (s) s.textContent = data.footer.admin2; }
+    if (contactItems[0]) {
+      var s = contactItems[0].querySelector('span'); if (s) s.textContent = data.footer.admin1;
+      var a = contactItems[0].querySelector('a'); if (a && data.footer.admin1Url) a.href = data.footer.admin1Url;
+    }
+    if (contactItems[1]) {
+      var s = contactItems[1].querySelector('span'); if (s) s.textContent = data.footer.admin2;
+      var a = contactItems[1].querySelector('a'); if (a && data.footer.admin2Url) a.href = data.footer.admin2Url;
+    }
     // item[2] is the email link — set href and visible text from content-data.js
     if (contactItems[2] && data.footer.email) {
       var emailAnchor = contactItems[2].querySelector('a');
