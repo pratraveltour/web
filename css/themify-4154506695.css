@@ -301,13 +301,13 @@ body #site-logo a img {		width: 85px;
 	color: #ffffff; 
 }
 @media(max-width: 1280px) { /* Themify Customize Styling */
-body #site-logo a img {		width: 170px; 
+body #site-logo a img {		width: 85px; 
 }
  }@media(max-width: 768px) { /* Themify Customize Styling */
-body #site-logo a img {		width: 170px; 
+body #site-logo a img {		width: 85px; 
 }
  }@media(max-width: 680px) { /* Themify Customize Styling */
-body #site-logo a img {		width: 170px; 
+body #site-logo a img {		width: 85px; 
 }
  }.mobile-menu-visible.header-slide-out .sidemenu-on, .mobile-menu-visible.header-overlay #headerwrap, .mobile_menu_active.header-leftpane #headerwrap, .mobile_menu_active.header-rightpane #headerwrap, .header-minbar .sidemenu-on, .mobile_menu_active #headerwrap .sidemenu-on { background: none;
 	background-color: #233b5c;
@@ -424,7 +424,7 @@ td, th {
 	
 	body #site-logo a img {
 border-radius: 0px;
-    width: 200px;
+    width: 85px;
 
 	}}
 
