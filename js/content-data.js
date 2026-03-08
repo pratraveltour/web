@@ -110,7 +110,7 @@ var SITE_CONTENT = {
     ],
 
     "bankTitle": "Nomor Rekening ",
-    "bankDetails": "<p>BANK SYARIAH INDONESIA (BSI)<br>7234815738<br>a.n PT. Pra travel&tour</p>",
+    "bankDetails": "<p>BANK SYARIAH INDONESIA (BSI)<br>72348xxxxx<br>a.n PT. Pra travel&tour</p>",
 
     "locationDescription": "<p>PT. Pra travel&tour berlokasi di Dusun Krajan RT 03 RW 01 Tambaksari, Kraton, Kab. Pasuruan, Jawa Timur. Untuk Anda yang ingin berkonsultasi dengan kami secara langsung, Anda bisa datang langsung ke kantor kami.</p>",
 
