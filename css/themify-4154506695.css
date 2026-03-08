@@ -202,7 +202,7 @@ input[type=reset]:hover, input[type=submit]:hover, button:hover, button[type=sub
 #pagewrap #headerwrap.fixed-header, .transparent-header #pagewrap #headerwrap.fixed-header {	background: none;
 	background-color: #ffffff; 
 }
-body #site-logo a img {		width: 170px; 
+body #site-logo a img {		width: 85px; 
 }
 #site-logo {	
 	margin-top: 7px;

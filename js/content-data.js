@@ -2,15 +2,15 @@
 // No server needed - loaded as a plain script tag.
 var SITE_CONTENT = {
   "socialLinks": {
-    "facebook":  "https://www.facebook.com/Pratraveltour/",
-    "instagram": "https://www.instagram.com/pra_traveltour/",
-    "tiktok":    "https://www.tiktok.com/",
-    "youtube":   "https://www.youtube.com/"
+    "facebook":  "https://www.facebook.com/share/1GBHQquoyW/?mibextid=wwXIfr",
+    "instagram": "https://www.instagram.com/bromopratravel",
+    "tiktok":    "https://www.tiktok.com/@pratraveltour",
+    "youtube":   "https://www.tiktok.com/@pratraveltour"
   },
   "topbar": {
     "promo": "Promo Paket Wisata Bromo",
     "phone1": "+62823-0128-7662",
-    "phone2": "+628xx-xxxx-xxxx"
+    "phone2": "+62821-4242-2977"
   },
   "nav": {
     "home": "Home",
@@ -26,10 +26,10 @@ var SITE_CONTENT = {
     "contactTitle": "Hubungi Kami",
     "admin1": "Admin 1 : +62823-0128-7662",
     "admin1Url": "https://api.whatsapp.com/send?phone=6282301287662",
-    "admin2": "Admin 2 : +62899-9999-9999",
-    "admin2Url": "https://api.whatsapp.com/send?phone=6289999999999",
-    "email": "pratravelandtour@gmail.com",
-    "address": "Krajan 1, Sepuhgembol, Kec. Wonomerto, Kabupaten Probolinggo, Jawa Timur 67253",
+    "admin2": "Admin 2 : +62821-4242-2977",
+    "admin2Url": "https://api.whatsapp.com/send?phone=6282142422977",
+    "email": "pratraveltour@gmail.com",
+    "address": "Jl. Cangkring Gg. IV No.18, Kanigaran, Kec. Kanigaran, Kota Probolinggo, Jawa Timur 67213",
     "copyright": "\u00a9 2026 Pra travel&tour. All Rights Reserved."
   },
 
@@ -37,7 +37,7 @@ var SITE_CONTENT = {
     "welcome": "WELCOME TO OUR WEBSITE",
 
     "aboutTitle": "About<span style=\"color: #333;\"> Us</span>",
-    "aboutPara1": "<p>Bromo adalah nama sebuah gunung yang berlokasi di Krajan 1, Sepuhgembol, Kec. Wonomerto, Kabupaten Probolinggo, Jawa Timur. Gunung Bromo adalah bagian dari Taman Nasional Bromo Tengger Semeru yang terkenal di Indonesia.</p>\n<p><strong>Pra travel&tour</strong> mengajak Anda untuk berwisata di Gunung Bromo. Ajak teman atau sahabat terdekat Anda untuk menikmati suasana alam yang indah di Jawa Timur. Kami menawarkan paket trip Gunung Bromo dengan harga yang cukup terjangkau.</p>",
+    "aboutPara1": "<p>Bromo adalah nama sebuah gunung yang berlokasi di Kabupaten Probolinggo, Jawa Timur. Gunung Bromo adalah bagian dari Taman Nasional Bromo Tengger Semeru yang terkenal di Indonesia.</p>\n<p><strong>Pra travel&tour</strong> mengajak Anda untuk berwisata di Gunung Bromo. Ajak teman atau sahabat terdekat Anda untuk menikmati suasana alam yang indah di Jawa Timur. Kami menawarkan paket trip Gunung Bromo dengan harga yang cukup terjangkau.</p>",
     "aboutPara2": "<p>Nikmati liburan menyenangkan Anda bersama teman, sahabat, keluarga di Gunung Bromo, ada banyak tempat yang bisa Anda eksplore seperti Kawah Gunung Bromo, Padang Rumput Savana, Pasir Berbisik, Bukit Teletubbies Bromo dan lainnya.</p>",
     "aboutButton": "Selengkapnya [...]",
 
